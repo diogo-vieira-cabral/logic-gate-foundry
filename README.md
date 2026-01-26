@@ -1,5 +1,13 @@
 # Analytics Engineering Foundations
-**Raw data → Production business intelligence → $ impact**
+**Mission:** Transforming raw data into high-integrity production intelligence to drive cash flow and attribution.
+
+> [!IMPORTANT]
+> **Engineering Philosophy: Depth Over Volume**
+> I prioritize **Rationale** over raw output. 
+Aiming to engineer and document solutions through a lifecycle of: 
+    1. **Functional Solve** 
+    2. **Edge-Case Stress Testing** (Ties/NULLs) 
+    3. **Professional Refactor** (Window Functions/CTEs).
 
 ### 01. NYC Taxi Churn Prevention 
 Identify high-value passengers at risk of churn  
