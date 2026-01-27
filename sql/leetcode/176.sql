@@ -1,18 +1,22 @@
 /* 
-PROBLEM: Second Highest Salary 
+PROBLEM 176: Second Highest Salary
+
+BUSINESS CONTEXT: 
+Identifying the second-tier compensation level for market benchmarking. 
+Ensures accurate reporting even when multiple employees share the top salary.
 
 TECHNICAL CHALLENGE: 
-Handling 'Empty' results. If the table has fewer than 2 distinct salaries, 
-the query must return NULL, not an error. The Subquery method handles this 
-natively via the MAX() function's behavior on empty sets.
-
-DEBUG:
-❌ v1: OFFSET skips ROWS not values  
-❌ v2: DISTINCT MAX → highest salary
-✅ v3: Subquery < MAX(salary)
+Scaling the logic beyond the 2nd rank. Subqueries become unreadable 
+at N > 2; Window Functions provide a consistent, O(n) approach.
 */
 
-SELECT MAX(salary) AS SecondHighestSalary
-FROM Employee 
-WHERE salary < (SELECT MAX(salary) FROM Employee);
-
+WITH rankedsalaries AS (
+    SELECT 
+        salary, 
+        DENSE_RANK() OVER (ORDER BY salary DESC) as rank
+    FROM Employee
+)
+SELECT salary AS SecondHighestSalary
+FROM rankedsalaries
+WHERE rank = 2
+LIMIT 1; -- Ensures a single result if the table has no duplicate 2nd place values
