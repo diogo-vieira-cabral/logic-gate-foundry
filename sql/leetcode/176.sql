@@ -2,12 +2,15 @@
 PROBLEM 176: Second Highest Salary
 
 BUSINESS CONTEXT: 
-Identifying the second-tier compensation level for market benchmarking. 
-Ensures accurate reporting even when multiple employees share the top salary.
+Identifying the secondary compensation tier. 
+This allows HR to understand the gap between the top earner and the next 
+level of pay for budgeting and retention analysis.
 
 TECHNICAL CHALLENGE: 
-Scaling the logic beyond the 2nd rank. Subqueries become unreadable 
-at N > 2; Window Functions provide a consistent, O(n) approach.
+We avoid the double-scan overhead of subqueries to achieve O(n) performance. 
+The logic scales by allowing us to change a single integer to find the 3rd, 4th, 
+or Nth rank. We ensure data quality by using DENSE_RANK() so that 
+duplicate top salaries don't cause the query to skip the 2nd rank.
 */
 
 WITH rankedsalaries AS (
