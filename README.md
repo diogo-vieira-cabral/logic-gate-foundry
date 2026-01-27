@@ -34,8 +34,9 @@ ____
 Adopting Medallion Architecture (Bronze, Silver, Gold) to ensure data lineage. I prioritize Dry-runs and Incremental loads to optimize compute costs and performance.
 
 **Data Quality & Reliability:** 
-Integrated testing within the dbt lifecycle. I treat Schema tests and Custom data assertions as non-negotiable requirements to prevent "silent data failure."
+Quality First: Adopting a test-driven approach in dbt to ensure data integrity, focusing on unique keys and null-value prevention.
 
 **Engineering Workflow:**
-Version control via Git with a focus on atomic commits. I utilize UDFs (User-Defined Functions) and Window Functions to build reusable, scalable logic for complex business metrics like LTV and Churn.
+Version control via Git with a focus on atomic commits. 
+Scalable SQL: Transitioning from "Functional" SQL to "Professional" SQL by prioritizing Window Functions and CTE-based logic for better performance, maintainability and scalability.
 
