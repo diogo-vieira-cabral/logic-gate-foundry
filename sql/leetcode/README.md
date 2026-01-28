@@ -10,4 +10,5 @@
 | [178](178.sql) | Rank Scores | Ensuring fairness: Acknowledging tied performance without penalizing the subsequent participants.  | DENSE_RANK()
 | [181](181.sql) | Employees Earning More Than Managers | Performance Arbitrage: Identifying high-performers out-earning leadership. | SELF-JOIN |
 | [182](182.sql) | Duplicate Emails | Data Hygiene: Isolating redundant entities to ensure unique ID resolution. | GROUP BY, HAVING |
-
+| [183](183.sql) |	Customers Who Never Order | Market Gap Analysis: Isolating "Virgin Assets" or unreached segments by identifying record voids. |	LEFT JOIN, IS NULL|
+| [184](184.sql) |	Department Highest Salary |	Elite Tier Identification: Ranking the "Top 1%" of assets within specific categories/. | CTE, DENSE_RANK(), OVER(PARTITION BY) |
