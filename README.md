@@ -2,11 +2,13 @@
 **Mission:** Transforming raw data into high-integrity production intelligence to drive cash flow and attribution.
 
 > **Engineering Philosophy:**
-I prioritize **Rationale** over raw output, Depth Over Volume.
+I prioritize **Rationale** over raw output. 
+Depth Over Volume.
+
 Aiming to engineer and document solutions through a lifecycle of: 
-    1. **Functional Solve** 
-    2. **Edge-Case Stress Testing** (Ties/NULLs) 
-    3. **Professional Refactor** (Window Functions/CTEs).
+**Functional Solve** 
+**Edge-Case Stress Testing** (Ties/NULLs) 
+**Professional Refactor** (Window Functions/CTEs).
 
 ### 01. NYC Taxi Churn Prevention 
 Identify high-value passengers at risk of churn  
