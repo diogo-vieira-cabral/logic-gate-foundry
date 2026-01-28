@@ -4,7 +4,7 @@
 
 -- TECHNICAL CHALLENGE: Filtering Window Function outputs via CTE.
 
-```sql
+
 WITH RankedSalary AS (
 SELECT
     d.name AS Department,
@@ -30,5 +30,4 @@ WHERE
     rnk = 1;
 
 -- need a CTE because cannot filter by a window Function in the same SELECT statement that created it. 
-The ´where´ tries to filter the data before dense rank has been calculated
-```
+The where tries to filter the data before dense rank has been calculated
