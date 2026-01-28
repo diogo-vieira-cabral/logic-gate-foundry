@@ -1,5 +1,5 @@
 ## LeetCode SQL 
-**Progress: 6/50** | **LeetCode username:** diogo-vieira-cabral
+**Progress: 8/50** | **LeetCode:** https://leetcode.com/u/diogo-vieira-cabral/  
 
 
 | # | Problem | Use case/Business Impact | TechStack |
