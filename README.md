@@ -1,46 +1,40 @@
-# Analytics Engineering Foundations
-**Mission:** Transforming raw data into high-integrity production intelligence to drive cash flow and attribution.
+# logic-gate-foundry
+  
 
-> **Engineering Philosophy:**  
-I prioritize **Rationale** over raw output.  
-Depth Over Volume.  
 
-Aiming to engineer and document solutions through:  
-Functional Solution.  
-Edge-Case Stress Testing: (Ties/NULLs).  
-Professional Refactor: (Window Functions/CTEs).  
+#### **Objective:** 
 
-### 01. NYC Taxi Churn Prevention 
-Identify high-value passengers at risk of churn  
-**Tech**: BigQuery + dbt + Advanced SQL  
-**Impact**: $2M annual revenue recovery opportunity  
-[📁 Code](01-nyc-taxi-dbt/) | [📊 Results](01-nyc-taxi-dbt/data/)
+Build a technical reference for engineering data with quality, precision, and integrity.  
+This repository enforces the standards required to translate raw business noise into reliable, audit-ready data assets.  
+  
 
-### 02. E-commerce SaaS Metrics 
-Build LTV/CAC/cohort analysis platform  
-**Tech**: dbt Semantic Layer + Tests + Python loader  
-**Impact**: Self-serve executive dashboard 
-[📁 Code](02-ecom-cohorts/)
 
-### 03. Regime Signals and return stats
-**Problem**: Market regime detection → Trading signals  
-**Tech**: Airbyte → BigQuery → dbt → Evidence.dev  
-**Impact**: Engineering statistical edge through cross-asset regime intelligence
-[📁 Code](03-regime-stat-lab/)
+**Why this exists:** I don’t believe in "just writing SQL." Code is a liability; logic is the asset.  
 
-____
+"I treat every query as a **Logic Gate** — a controlled point of verification designed to handle structural edge cases (NULL-drifts, ties, duplicates and outliers) before they corrupt the decision-making layer.  
 
-## Technical Standards & Stack
+Even if no one ever reads this, it has served its purpose: it is the blueprint for how I ensure reliability in production environments.  
+  
+  
+  
+#### **standards & core methodology**
 
-**Data Modeling & Transformation (dbt/BigQuery):** 
-I prioritize Dry-runs and Incremental loads to optimize compute costs and performance.
-Adopting Medallion Architecture (Bronze, Silver, Gold) to ensure data lineage. 
+**Logic over Syntax:** I prioritize the _Rationale_ behind the query. Syntax is a commodity; the engineered logic that protects data lineage is the value.
 
-**Data Quality & Reliability:** 
-Adopting a test-driven approach in dbt to ensure data integrity, focusing on unique keys and null-value prevention.
-Quality First.
+**Business Accountability:** I treat code as an investment. If a logic gate doesn't move a business lever (Cash Flow, CAC, LTV), it doesn't belong in the foundry.
 
-**Engineering Workflow:**
-Version control via Git with a focus on atomic commits. 
-Scalable SQL: Transitioning from "Functional" SQL to "Professional" SQL by prioritizing Window Functions and CTE-based logic for better performance, maintainability and scalability.
+**Integrity:** Testing is not a separate tool; it is a habit. 
+
+**SOP Framework:** Every pattern is a documented protocol for handling specific business contexts and data risks.  
+  
+  
+
+**Directories:**
+
+- **[logic-gate-library/](https://www.google.com/search?q=logic-gate-library/)**: The core index of SQL protocols and business impact.
+ - **systems/**: Composite models (dbt/SQL) for end-to-end business cases (LTV, Churn).  
+  
+
+
+> **Note on Growth:** This repository is an evolving audit of my own technical standards. I treat every commit as a step toward more resilient infrastructure. It isn't just about the code—it's about building a reliable mental model for how data should behave in the wild.
 

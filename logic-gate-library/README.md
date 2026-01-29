@@ -1,11 +1,13 @@
-## Logic Gate Foundry: Enterprise SQL Standards
+## logic-gate-library
 
-I don’t treat these challenges as isolated exercises. In this directory, every solution is a Logic Gate—a standardized, reusable piece of architecture built to support high-stakes strategic infrastructure.
+Every solution here is a **Logic Gate**: a standardized, reusable piece of architecture built to support high-stakes infrastructure and decision-making.
 
-These gates are where technical competence meets economic reality. In the Foundry, we don't just move data; we engineer the intelligence layers required to identify alpha, mitigate risk, and dictate business direction. If a query doesn't translate into a decisive market advantage, it doesn't leave the shop.
+These gates mediate technical competence with economic reality. 
+In the Foundry, we don't just move data; we engineer the intelligence layers required to identify alpha, mitigate risk, and dictate business direction. 
 
-### LeetCode Database Challenges
-**Progress: 9/50** | **LeetCode:** https://leetcode.com/u/diogo-vieira-cabral/  
+If a query doesn't translate into a concrete business utility, it doesn't belong in the library.
+
+**Progress: 10/50** | [LeetCode Profile](https://leetcode.com/u/diogo-vieira-cabral/)
 
 
 | # | Problem | Use case/Business Impact | TechStack |
