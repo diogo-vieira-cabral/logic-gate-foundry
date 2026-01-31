@@ -21,4 +21,5 @@ If a query doesn't translate into a concrete business utility, it doesn't belong
 | [183](183.sql) |	Customers Who Never Order | **Market Gap Analysis**: Isolating "Virgin Assets" or unreached segments by identifying record voids. |	LEFT JOIN, IS NULL|
 | [184](184.sql) |	Department Highest Salary |	**Elite Tier Identification**: Ranking the "Top 1%" of assets within specific categories/. | CTE, DENSE_RANK(), OVER(PARTITION BY) |
 | [185](185.sql) | Department Top Three Salaries | **High-Density Talent Benchmarking:** Identifying competitive salary regimes within departments to prevent talent poaching and optimize retention. | CTE, DENSE_RANK() |
-| [196](196.sql) | Duplicate Emails | CRM Deduplication: Target and remove redundant records while preserving Master Profiles using a Self-Join comparison logic. | DELETE, SELF JOIN |
+| [196](196.sql) | Duplicate Emails | **CRM Deduplication**: Target and remove redundant records while preserving Master Profiles using a Self-Join comparison logic. | DELETE, SELF JOIN |
+| [262.sql](262.sql) | trips_and_users | **Marketplace churn/cancellation logic** | (CTE/Semi-Join) |
