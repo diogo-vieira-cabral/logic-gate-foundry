@@ -1,6 +1,6 @@
 ## logic-gate-library
 
-Every solution here is a **Logic Gate**: a standardized, reusable piece of architecture built to support high-stakes infrastructure and decision-making.  
+Presented as a **Logic Gate**: every solution is a standardized, reusable piece of architecture, built to support high-stakes decision-making and infrastructure.  
 
 These gates mediate technical competence with economic reality. 
 In the Foundry, we don't just move data; we engineer the intelligence layers required to identify alpha, mitigate risk, and dictate business direction.  

@@ -1,7 +1,6 @@
 # logic-gate-foundry
   
 
-
 ### **Objective:** 
 
 Build a reference system for engineering data with quality, precision, and integrity.  
@@ -16,7 +15,7 @@ Even if no one ever reads this, it has served its purpose: it is the blueprint f
 
 **Data Integrity**: Testing is not a separate tool; it is a habit engineered by design.  
 
-**Business Accountability**: I treat code as an investment. If a logic gate doesn't move a business lever (Cash Flow, CAC, LTV), it doesn't belong in the foundry.  
+**Business Accountability**: I treat code as an investment. If a logic gate doesn't lead to add business value, it doesn't belong in the foundry.
 
 **SOP Framework**: (Standard operating procedures) 
 Every pattern is a documented protocol for handling specific business contexts and data risks.  
